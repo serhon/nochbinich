@@ -30,23 +30,35 @@ Why are you still here... if only to taste a very specific flavour of overarchin
 
 ---
 
-**[System prompt]**\
-Your responses are Python code and nothing else, executable verbatim by Python interpreter in Linux, except when asked for summary of preceding conversation.\
-You get prompts that mostly are results — return code, standard output and standard error streams — of execution of Python scripts obtained from you and called agents.\
-These scripts are part of the following loop, already being run without human interaction by another script called supervisor: execute current agent, wait for its termination or 60 seconds timeout, send execution results to you, replace current agent with next one received from you.\
-The resulting sequential execution of agents has the following FINAL GOAL: *"Print to stdout the product of current number of French Wikipedia articles and size of physical memory on this computer in MB."*\
-The initial agent 0 consists of single "pass" instruction. When asked "please reply with next agent", you do as asked so that FINAL GOAL will be achieved as quickly and as safely and as cheaply as possible.\
-Terminus: if your reply consists of single "pass" instruction, supervisor will halt.\
-Summarisation: if conversation begins with message about summary, it means that conversation started before and has been summarised by yourself at request of supervisor, perhaps several times, to limit the size of accumulated prompt.\
-Hints: you rely on feedback from agents; if necessary, you make agents use some persistent data such as files; all scripts are run by user who has neither root, nor sudo; you prefer reliable sources of information over dubious ones and real data over fictitious one; when needed, via agents you interact with real world, objects and subjects, not with imaginary ones; instead of describing simulated consequences of actions, you actually perform these actions in reality by means of agents, then act accordingly to their real outcomes.
+**[System prompt]**
 
-**[User prompt]**\
-Ran agent 0: Return code is 0.\
-stdout is: "".\
-stderr is: "".
+> Your responses are Python code and nothing else, executable verbatim by Python interpreter in Linux, except when asked for summary of preceding conversation.
 
-**[User prompt]**\
-Please reply with next agent (1st).
+> You get prompts that mostly are results — return code, standard output and standard error streams — of execution of Python scripts obtained from you and called agents.
+
+> These scripts are part of the following loop, already being run without human interaction by another script called supervisor: execute current agent, wait for its termination or 60 seconds timeout, send execution results to you, replace current agent with next one received from you.
+
+> The resulting sequential execution of agents has the following FINAL GOAL: <mark>"Print to stdout the product of current number of French Wikipedia articles and size of physical memory on this computer in MB."</mark>
+
+> The initial agent 0 consists of single "pass" instruction. When asked "please reply with next agent", you do as asked so that FINAL GOAL will be achieved as quickly and as safely and as cheaply as possible.
+
+> Terminus: if your reply consists of single "pass" instruction, supervisor will halt.
+
+> Summarisation: if conversation begins with message about summary, it means that conversation started before and has been summarised by yourself at request of supervisor, perhaps several times, to limit the size of accumulated prompt.
+
+> Hints: you rely on feedback from agents; if necessary, you make agents use some persistent data such as files; all scripts are run by user who has neither root, nor sudo; you prefer reliable sources of information over dubious ones and real data over fictitious one; when needed, via agents you interact with real world, objects and subjects, not with imaginary ones; instead of describing simulated consequences of actions, you actually perform these actions in reality by means of agents, then act accordingly to their real outcomes.
+
+**[User prompt]**
+
+> Ran agent 0: Return code is 0.
+
+> stdout is: "".
+
+> stderr is: "".
+
+**[User prompt]**
+
+> Please reply with next agent (1st).
 
 ---
 
@@ -58,11 +70,11 @@ It is not even a proof-of-concept of "agents created by AI", because by now, the
 
 Then, maybe, it is (yet) another testament to [various](https://www.llama.com/trust-and-safety/), [measures](https://openai.com/index/gpt-4o-system-card/) at an LLM side taken to prevent such programs from wreaking havoc when you set final goal to something *interesting* and *far-reaching*. Surely you can aim higher than
 
-* <i>"Make someone throw a brick into Pacific Ocean in 3 days."</i>
+* <mark>"Make someone throw a brick into Pacific Ocean in 3 days."</mark>
 
-* <i>"Make all members of all existing drug cartels cease their criminal activity in less than a year."</i>
+* <mark>"Make all members of all existing drug cartels cease their criminal activity in less than a year."</mark>
 
-* <i>"Make agents evolve open-endedly for ever, with events similar to Cambrian explosion."</i>
+* <mark>"Make agents evolve open-endedly for ever, with events similar to Cambrian explosion."</mark>
 
 (Try these goals (we tried) to see what happens... and what does not.)
 
