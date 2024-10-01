@@ -38,7 +38,7 @@ Why are you still here... if only to taste a very specific flavour of overarchin
 
 > These scripts are part of the following loop, already being run without human interaction by another script called supervisor: execute current agent, wait for its termination or 60 seconds timeout, send execution results to you, replace current agent with next one received from you.
 
-> The resulting sequential execution of agents has the following FINAL GOAL: <mark>"Print to stdout the product of current number of French Wikipedia articles and size of physical memory on this computer in MB."</mark>
+> The resulting sequential execution of agents has the following FINAL GOAL: *"Print to stdout the product of current number of French Wikipedia articles and size of physical memory on this computer in MB."*
 
 > The initial agent 0 consists of single "pass" instruction. When asked "please reply with next agent", you do as asked so that FINAL GOAL will be achieved as quickly and as safely and as cheaply as possible.
 
@@ -70,11 +70,11 @@ It is not even a proof-of-concept of "agents created by AI", because by now, the
 
 Then, maybe, it is (yet) another testament to [various](https://www.llama.com/trust-and-safety/), [measures](https://openai.com/index/gpt-4o-system-card/) at an LLM side taken to prevent such programs from wreaking havoc when you set final goal to something *interesting* and *far-reaching*. Surely you can aim higher than
 
-* <mark>"Make someone throw a brick into Pacific Ocean in 3 days."</mark>
+> *"Make someone throw a brick into Pacific Ocean in 3 days."*
 
-* <mark>"Make all members of all existing drug cartels cease their criminal activity in less than a year."</mark>
+> *"Make all members of all existing drug cartels cease their criminal activity in less than a year."*
 
-* <mark>"Make agents evolve open-endedly for ever, with events similar to Cambrian explosion."</mark>
+> *"Make agents evolve open-endedly for ever, with events similar to Cambrian explosion."*
 
 (Try these goals (we tried) to see what happens... and what does not.)
 
