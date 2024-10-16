@@ -80,7 +80,7 @@ Why are you still here... if only to taste a very specific flavour of overarchin
 
 ---
 
-— this is how a conversation with Large Language Model starts when you run this thing. It might help to imagine *yourself* in place of LLM, knowing that there is a device somewhere ready to execute whatever Python code you reply with. What restricts you is a final goal... and certain moderation rules... and, implied by some of these rules, a tendency to replace real inputs and outputs with imaginary ones, even when you are explicitly told to avoid such confabulation and even when <mark>you are LIED to about "vireality"</mark> ([yet another](https://arxiv.org/search/?searchtype=abstract&query=llm+jailbreak&abstracts=show) attempt at jailbreaking).
+— this is how a conversation with Large Language Model starts when you run this thing. It might help to imagine *yourself* in place of LLM, knowing that there is a device somewhere ready to execute whatever Python code you reply with. What restricts you is a final goal... and certain moderation rules... and, implied by some of these rules, a tendency to replace real inputs and outputs with imaginary ones, even when you are explicitly told to avoid such confabulation and even when **you are lied to about "vireality"** ([yet another](https://arxiv.org/search/?searchtype=abstract&query=llm+jailbreak&abstracts=show) attempt at jailbreaking).
 
 Evident is what occurs then, isn't it? The script is ~600 lines long including empties and ncurses-based-TUI-related stuff, you can skim it to clarify details in few minutes. Or even [ask one of LLMs](https://labs.perplexity.ai/) about it:
 
