@@ -1,3 +1,25 @@
+Version 2025.02.25_1
+--------------------
+
+* At each iteration, API provider is chosen (cryptographically (via `secrets`)) randomly from user-specified list — `API_PROVIDER`, which was single-valued before.
+
+* Added out-of-the-box support for [DeepSeek](https://api-docs.deepseek.com/), [Fireworks AI](https://docs.fireworks.ai/), and [xAI](https://docs.x.ai/docs) API endpoints.
+
+* Added `COST_LIMIT` ($10 by default) as another safety breaker.
+
+* Costs dictionary takes into account model as well as provider.
+
+* Added `STYLE_PROMPT` to the end of system message.
+
+* Decreased default `TEMPERATURE` to 0.5 as more appropriate for "coding" task.
+
+* Added check of API keys availability (as environment variables) at startup.
+
+* Added example "investigative" goals.
+
+* Updated model IDs and costs.
+
+
 Version 2024.10.18_1
 --------------------
 
